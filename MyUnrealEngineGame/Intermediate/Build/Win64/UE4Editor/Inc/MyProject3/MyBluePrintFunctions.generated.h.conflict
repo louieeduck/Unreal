@@ -1,0 +1,95 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MYPROJECT3_MyBluePrintFunctions_generated_h
+#error "MyBluePrintFunctions.generated.h already included, missing '#pragma once' in MyBluePrintFunctions.h"
+#endif
+#define MYPROJECT3_MyBluePrintFunctions_generated_h
+
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_SPARSE_DATA
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_RPC_WRAPPERS
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMyBluePrintFunctions(); \
+	friend struct Z_Construct_UClass_UMyBluePrintFunctions_Statics; \
+public: \
+	DECLARE_CLASS(UMyBluePrintFunctions, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProject3"), NO_API) \
+	DECLARE_SERIALIZER(UMyBluePrintFunctions)
+
+
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_INCLASS \
+private: \
+	static void StaticRegisterNativesUMyBluePrintFunctions(); \
+	friend struct Z_Construct_UClass_UMyBluePrintFunctions_Statics; \
+public: \
+	DECLARE_CLASS(UMyBluePrintFunctions, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MyProject3"), NO_API) \
+	DECLARE_SERIALIZER(UMyBluePrintFunctions)
+
+
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMyBluePrintFunctions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyBluePrintFunctions) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMyBluePrintFunctions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyBluePrintFunctions); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMyBluePrintFunctions(UMyBluePrintFunctions&&); \
+	NO_API UMyBluePrintFunctions(const UMyBluePrintFunctions&); \
+public:
+
+
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMyBluePrintFunctions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMyBluePrintFunctions(UMyBluePrintFunctions&&); \
+	NO_API UMyBluePrintFunctions(const UMyBluePrintFunctions&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMyBluePrintFunctions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyBluePrintFunctions); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyBluePrintFunctions)
+
+
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_PRIVATE_PROPERTY_OFFSET
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_12_PROLOG
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_PRIVATE_PROPERTY_OFFSET \
+	MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_SPARSE_DATA \
+	MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_RPC_WRAPPERS \
+	MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_INCLASS \
+	MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_PRIVATE_PROPERTY_OFFSET \
+	MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_SPARSE_DATA \
+	MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_INCLASS_NO_PURE_DECLS \
+	MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MYPROJECT3_API UClass* StaticClass<class UMyBluePrintFunctions>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID MyProject3_Source_MyProject3_Public_MyBluePrintFunctions_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

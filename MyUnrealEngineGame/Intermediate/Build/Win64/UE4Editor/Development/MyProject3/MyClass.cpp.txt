@@ -1,0 +1,2 @@
+C:\Users\evanf\Desktop\Unreal\MyProject3\Intermediate\Build\Win64\UE4Editor\Development\MyProject3\Definitions.MyProject3.h
+C:\Users\evanf\Desktop\Unreal\MyProject3\Source\MyProject3\Public\MyClass.h
